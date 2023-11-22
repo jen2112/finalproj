@@ -1,0 +1,40 @@
+CRITICAL - 2023-11-02 04:40:09 --> Invalid file: "include/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('include/header', [], true)
+ 3 APPPATH\Controllers\SigninController.php(57): view('include/header')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->try()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-02 07:04:26 --> Invalid file: "information.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('information.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('information', [], true)
+ 3 APPPATH\Controllers\InformationController.php(36): view('information', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->Information()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-02 07:05:36 --> Invalid file: "information.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('information.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('information', [], true)
+ 3 APPPATH\Controllers\InformationController.php(37): view('information', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->Information()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-02 07:07:17 --> Invalid file: "information.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('information.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('information', [], true)
+ 3 APPPATH\Controllers\InformationController.php(37): view('information', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->Information()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
